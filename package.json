@@ -1,6 +1,7 @@
 {
   "name": "botpress",
   "private": true,
+  "packageManager": "pnpm@8.6.2",
   "scripts": {
     "build": "turbo run generate && turbo run build",
     "bump": "depsynky bump --ignore-dev && pnpm -w install",
